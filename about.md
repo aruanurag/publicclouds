@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: "About"
+permalink: https://github.com/aruanurag/publicclouds/about.md
 ---
 
 This is an about page describing everything about this awesome site.
