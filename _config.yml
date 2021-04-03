@@ -4,4 +4,7 @@ author: Anurag Mohan
 email: aru.anurag@gmail.com
 description: A helpful guide for mastering the public cloud
 
+plugins:
+- jekyll-menus
+
 theme: jekyll-theme-architect
