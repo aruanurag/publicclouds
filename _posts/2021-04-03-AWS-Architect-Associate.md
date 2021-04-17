@@ -17,6 +17,7 @@
   * Used by AWS resources to get access to other resources
 * **IAM Policies**
   * Predefined/Managed Policies
+* **IAM federation**
 
 ## Example2
 ## Third Example
