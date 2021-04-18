@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "POST TITLE"
+title: "AWS Offerings"
 date: 2021-04-03 11:11:11 -0000
 categories: CATEGORY-1 CATEGORY-2
 ---
