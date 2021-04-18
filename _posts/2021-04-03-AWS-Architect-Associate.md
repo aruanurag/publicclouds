@@ -1,4 +1,9 @@
-# AWS Certified Solution Architect Associate
+---
+layout: post
+title: "AWS Certified Solution Architect Associate"
+date: 2021-04-03 11:11:11 -0000
+categories: AWSSolutionArchitectAssociate
+---
 
 # Table of Contents
 1. [IAM](#IAM)
