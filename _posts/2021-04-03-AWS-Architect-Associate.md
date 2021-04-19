@@ -13,7 +13,8 @@ categories: AWSSolutionArchitectAssociate
 
 ## IAM
 
-AWS Identity and Access Management solution. Like Azure Active Directory
+AWS Identity and Access Management solution. Like 
+**Azure Service**: Azure Active Directory
 
 * **USERS**
   * Physical Person/Users
@@ -28,10 +29,24 @@ AWS Identity and Access Management solution. Like Azure Active Directory
 
 ## EC2
 
+**Azure Service**: Azure Virtual Machine
 EC2 is the virtual machine offering from AWS. It has various capabilities -
 
 * Storing data on virtual drives. (EBS)
 
 * Load balancing across multiple instances (ELB)
 
-* Aut scaling horizontally by increasing the number of instances (ASG)
+* Auto scaling horizontally by increasing the number of instances (ASG)
+
+## Security Groups 
+
+**Azure Service**: Network Security Groups (NSG)
+
+* Network Security component to control traffic flow.
+* Collection of In and Out rules to control Ingress and Egress. Rules are defined using:
+  * Type - SSH/HTTP
+  * Protocol - TCP
+  * Port Range - 80, 443, 22 etc
+  * CIDR range for IP addresses - 10.1.1.0/24
+* By default all ingress is blocked and egress is allowed.
+* Can be attached to multiple EC2 instances and one EC2 instance can have multiple Security groups
