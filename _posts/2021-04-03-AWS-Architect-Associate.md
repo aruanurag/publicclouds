@@ -34,10 +34,14 @@ AWS Identity and Access Management solution. Like
 EC2 is the virtual machine offering from AWS. It has various capabilities -
 
 * Storing data on virtual drives. (EBS)
-
 * Load balancing across multiple instances (ELB)
-
 * Auto scaling horizontally by increasing the number of instances (ASG)
+
+### User Data
+
+* Use custom scripts to bootstrap your EC2 instances.
+* Scripts provided are like startup instructions. 
+* At the time of creating a EC2 instance provide the script that you want to run at the time of bootstraping
 
 ## Security Groups 
 
@@ -51,3 +55,5 @@ EC2 is the virtual machine offering from AWS. It has various capabilities -
   * CIDR range for IP addresses - 10.1.1.0/24
 * By default all ingress is blocked and egress is allowed.
 * Can be attached to multiple EC2 instances and one EC2 instance can have multiple Security groups
+* DNS names can not be used in a security group.
+* One security group can refrence other security group
