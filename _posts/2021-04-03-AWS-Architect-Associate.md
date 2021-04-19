@@ -9,6 +9,7 @@ categories: AWSSolutionArchitectAssociate
 
 1. [IAM](#IAM)
 2. [EC2](#EC2)
+3. [Security Groups](#Security-Groups)
 
 
 ## IAM
