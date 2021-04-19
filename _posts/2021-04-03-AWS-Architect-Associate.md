@@ -7,9 +7,9 @@ categories: AWSSolutionArchitectAssociate
 
 ## Table of Contents
 
-1. [IAM](#IAM)
-2. [EC2](#EC2)
-3. [Security Groups](#Security-Groups)
+1. [IAM](#iam)
+2. [EC2](#ec2)
+3. [Security Groups](#security-groups)
 
 
 ## IAM
