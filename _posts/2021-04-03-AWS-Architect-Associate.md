@@ -41,7 +41,23 @@ EC2 is the virtual machine offering from AWS. It has various capabilities -
 
 * Use custom scripts to bootstrap your EC2 instances.
 * Scripts provided are like startup instructions. 
-* At the time of creating a EC2 instance provide the script that you want to run at the time of bootstraping
+* At the time of creating a EC2 instance provide the script that you want to run at the time of 
+bootstraping
+
+### Instance Launch Type
+
+* On Demand - Most commonly used. Used for shorter durations eg. POC's
+* Reserved - 
+  * When the usage is for a minimum 1 year , reserved instances can be used.
+  * Convertible Reserved - Can be used if the duration is long and a flexible size is needed. The instance type can be changed.
+  * Scheduled Reserved - Available on specific schedules. Require compute only for a fraction of time.
+* Spot Instances - short workloads , very cheap and less reliable.
+ * Cheapest option
+ * You bid for a price and at any time if your max price is less than the current spot price you loose the instance
+ * More suitable for workloads which are unaffected by failures. 
+* Dedicated Instances - No one else will share your hardware
+* Dedicated Hosts - You book a entire host and control how instances are created. Get for a 3 year period. Useful for Bring your own license purpose.
+
 
 ## Security Groups 
 
