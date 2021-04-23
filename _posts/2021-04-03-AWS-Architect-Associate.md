@@ -10,6 +10,7 @@ categories: AWSSolutionArchitectAssociate
 1. [IAM](#iam)
 2. [EC2](#ec2)
 3. [Security Groups](#security-groups)
+4. [Elastic Network Interface](#elastic-network-interface)
 
 
 ## IAM
@@ -88,7 +89,7 @@ bootstraping
 * DNS names can not be used in a security group.
 * One security group can refrence other security group
 
-## Elastic Network Interface (ENI)
+## Elastic Network Interface
 
 **Azure Service**  Azure Network Interface
 
