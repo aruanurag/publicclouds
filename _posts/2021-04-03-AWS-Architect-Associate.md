@@ -55,8 +55,22 @@ bootstraping
  * Cheapest option
  * You bid for a price and at any time if your max price is less than the current spot price you loose the instance
  * More suitable for workloads which are unaffected by failures. 
+* Spot Fleets - Set of On demand + Spot Instances
+  * Try to meet the capacity with cost restraint.
 * Dedicated Instances - No one else will share your hardware
 * Dedicated Hosts - You book a entire host and control how instances are created. Get for a 3 year period. Useful for Bring your own license purpose.
+
+### Placement Groups
+
+* This option lets you configure the placemnt of the EC2 instances in the underlying hardware.
+* **Cluster** Clustered together for minmimizing the latency
+* **Spread**  The EC2 instances are spread across the underlying hardware (max 7 per group). Can spread across Availability Zones
+* **Partition** EC2 instances are spread across different racks .
+
+### EC2 Hibernate
+- When a EC2 instance is stopped the data on the disk is retained 
+- When terminated the dat is also lost
+- With EC2 hibernate all the inMemory (RAM) state is preserved which makes the restart really fast
 
 
 ## Security Groups 
@@ -73,3 +87,14 @@ bootstraping
 * Can be attached to multiple EC2 instances and one EC2 instance can have multiple Security groups
 * DNS names can not be used in a security group.
 * One security group can refrence other security group
+
+## Elastic Network Interface (ENI)
+
+**Azure Service**  Azure Network Interface
+
+1. Virtual Network Card
+2. Gives EC2 instances network Access
+3. Attributes:
+  - 1 Public Ip
+  - 1 Private IP
+  - One or More security groups
