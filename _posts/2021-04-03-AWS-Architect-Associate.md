@@ -38,6 +38,11 @@ EC2 is the virtual machine offering from AWS. It has various capabilities -
 * Load balancing across multiple instances (ELB)
 * Auto scaling horizontally by increasing the number of instances (ASG)
 
+### AMI
+- Amazon Machine Image
+- Can be customized with custom software as needed.
+- Custom/Private AMI needs to be managed by us.
+
 ### User Data
 
 * Use custom scripts to bootstrap your EC2 instances.
@@ -73,6 +78,25 @@ bootstraping
 - When terminated the dat is also lost
 - With EC2 hibernate all the inMemory (RAM) state is preserved which makes the restart really fast
 
+### EBS Volume
+- Elastic Block Store
+- Network drive that can be attached to the EC2 instance
+- They are netork drive so there is some network latency
+- Can only be assigned to one at a time, but can be detached and attached to other one.
+- Bind to one Availabilty Zone
+- Can take a EBS Snapshot which is basically a backup
+- EBS RAID -
+
+### EC2 instance store
+- Attached to the EC2 instance. So high perfomance and no latency.
+- Are ephemeral in nature so data goes away with EC2 instance.
+
+### EFS _ Elastic File System
+- managed File System
+- Netwrok File System
+- Can be shared by multiple instances
+- Expensive but pay only for the usage
+- Works with EC2 across multiple instances
 
 ## Security Groups 
 
