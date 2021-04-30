@@ -11,6 +11,7 @@ categories: AWSSolutionArchitectAssociate
 2. [EC2](#ec2)
 3. [Security Groups](#security-groups)
 4. [Elastic Network Interface](#elastic-network-interface)
+5. [Load Balancer](#load-balancer)
 
 
 ## IAM
@@ -92,8 +93,8 @@ bootstraping
 - Are ephemeral in nature so data goes away with EC2 instance.
 
 ### EFS _ Elastic File System
-- managed File System
-- Netwrok File System
+- Managed File System
+- Network File System
 - Can be shared by multiple instances
 - Expensive but pay only for the usage
 - Works with EC2 across multiple instances
@@ -123,3 +124,24 @@ bootstraping
   - 1 Public Ip
   - 1 Private IP
   - One or More security groups
+
+
+
+** Load Balancer
+
+
+***Classic Load Balancer***
+
+
+***Application Load Balancer***
+
+
+***Network Load Balancer***
+
+
+***Gateway Load Balancer***
+
+***More Concepts**
+
+1. Stickiness
+2. Cross Zone Load balancing
