@@ -127,7 +127,7 @@ bootstraping
 
 
 
-** Load Balancer
+**Load Balancer**
 
 
 ***Classic Load Balancer***
