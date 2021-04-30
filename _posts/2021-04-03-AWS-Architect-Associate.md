@@ -127,21 +127,21 @@ bootstraping
 
 
 
-**Load Balancer**
+## Load Balancer
 
 
-***Classic Load Balancer***
+### Classic Load Balancer
 
 
-***Application Load Balancer***
+### Application Load Balancer
 
 
-***Network Load Balancer***
+### Network Load Balancer
 
 
-***Gateway Load Balancer***
+### Gateway Load Balancer
 
-***More Concepts**
+### More Concepts
 
 1. Stickiness
 2. Cross Zone Load balancing
