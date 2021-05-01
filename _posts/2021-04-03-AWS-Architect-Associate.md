@@ -161,4 +161,8 @@ bootstraping
 
 * **Aurora**
 
-* **Elastic Cache**
+## Elastic Cache
+
+* **Redis**
+
+* **Memcached**
