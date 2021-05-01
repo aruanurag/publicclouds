@@ -12,6 +12,8 @@ categories: AWSSolutionArchitectAssociate
 3. [Security Groups](#security-groups)
 4. [Elastic Network Interface](#elastic-network-interface)
 5. [Load Balancer](#load-balancer)
+6. [Auto Scaling Groups](#auto-scaling-groups)
+7. [AWS Relational Data Services](#aws-rds)
 
 
 ## IAM
@@ -145,3 +147,18 @@ bootstraping
 
 1. Stickiness
 2. Cross Zone Load balancing
+3. Connection Draining
+
+## Auto Scaling Groups
+
+**Azure Service** Azure Scale Sets
+
+## AWS RDS
+
+* **Read Replicas**
+
+* **Multi AZ**
+
+* **Aurora**
+
+* **Elastic Cache**
