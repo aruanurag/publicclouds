@@ -14,6 +14,7 @@ categories: AWSSolutionArchitectAssociate
 5. [Load Balancer](#load-balancer)
 6. [Auto Scaling Groups](#auto-scaling-groups)
 7. [AWS Relational Data Services](#aws-rds)
+8. [Route 53 (Managed DNS)](#route-53)
 
 
 ## IAM
@@ -166,3 +167,11 @@ bootstraping
 * **Redis**
 
 * **Memcached**
+
+## Route 53
+
+**Azure Service** - Azure DNS and Traffic Manager
+
+* Route 53 is a manged Domain Name System(DNS)
+* Load balancing (through DNS) - Similar to Azure traffic manager.
+* Can also purchase domain names from here.
